@@ -5,7 +5,7 @@
  */
 
 let lista_peces = ["Dory", "Nemo"]
-let mas_peces = ["Pinky, Boby"]
+let mas_peces = ["Pinky", "Boby"]
 
 // Cambiar :
 console.log(lista_peces)
