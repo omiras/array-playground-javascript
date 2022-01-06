@@ -7,6 +7,6 @@
 let lista_peces = ["Dory", "Nemo"]
 let mas_peces = ["Pinky", "Boby"]
 
-// Cambiar :
+// Cambiar SOLAMENTE las dos siguientes líneas:
 console.log(lista_peces)
 console.log(mas_peces)
