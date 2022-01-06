@@ -17,5 +17,6 @@ console.log(muchos_peces.includes("Nemo"))
 console.log(muchos_peces.includes("Pepitillo"))
 
 /**
- * ¿Por qué el primer console log arroja el valor "true" y el segundo arroja el valor "false"?
+ * CONTESTA: ¿Por qué el primer console log arroja el valor "true" y el segundo arroja el valor "false"?
+ * CONTESTA: ¿Que TIPO de dato devuelve la función 'includes' (number, string, boolean o array)? 
  */
