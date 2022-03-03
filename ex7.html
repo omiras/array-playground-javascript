@@ -8,14 +8,19 @@
 </head>
 <body>
     <h1>Usa JavaScript para poner en mayúsculas el siguiente texto</h1>
-    <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti, dolorem molestiae iusto exercitationem amet quibusdam sunt. Similique minus molestias accusamus, perferendis molestiae libero. Aliquam minima quo corrupti quis totam.</p>
+    <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Nobis deleniti, dolorem molestiae iusto exercitationem amet quibusdam sunt. Similique minus molestias
+         accusamus, perferendis molestiae libero. Aliquam minima quo corrupti quis totam.</p>
     <script>
         let textoSpan = document.querySelector("#lorem").textContent
         console.log("Texto antes de transformarlo: ", textoSpan)
         
         // Tú código aquí: busca una función JavaScript que te permita transformar el texto en 'textoSpan' en mayúsculas; y asignarlo a la variable 'textoMaysuculas'
         let textoMaysuculas
-        
+        let result = textoSpan.toUpperCase();
+        textoMaysuculas = result
+        console.log(result)
+
         // No modificar a partir de aquí
         document.querySelector("#lorem").textContent = textoMaysuculas
 
