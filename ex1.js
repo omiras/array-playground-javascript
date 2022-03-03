@@ -8,5 +8,5 @@ let lista_peces = ["Dory", "Nemo"]
 let mas_peces = ["Pinky", "Boby"]
 
 // Cambiar SOLAMENTE las dos siguientes líneas:
-console.log(lista_peces)
-console.log(mas_peces)
+console.log(lista_peces[0])
+console.log(mas_peces[1])
