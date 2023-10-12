@@ -16,3 +16,7 @@ for (let i = 0; i < muchosPeces.length; i++) {
 
   // Modifica SOLAMENTE a partir de aquí
 }
+
+/**
+ * Resultado esperado: https://oscarm.tinytake.com/msc/ODc5NTE4Nl8yMjIxODUyNw
+ */
