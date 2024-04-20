@@ -5,7 +5,7 @@
  */
 
 let peces = ["Dory", "Nemo"];
-let otrosPeces = ["Pinky", "Boby"];
+let otrosPeces = ["Pinky", "Boby", "Esteban", "Enrique"];
 
 // Cambiar SOLAMENTE las dos siguientes líneas:
 console.log(peces);
