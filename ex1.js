@@ -8,8 +8,8 @@ let peces = ["Dory", "Nemo"];
 let otrosPeces = ["Pinky", "Boby", "Esteban", "Enrique"];
 
 // Cambiar SOLAMENTE las dos siguientes líneas:
-console.log(peces);
-console.log(otrosPeces);
+console.log(peces[0]);
+console.log(otrosPeces[1]);
 
 /**
  * Resultado esperado: https://oscarm.tinytake.com/msc/ODc5NTE0M18yMjIxODQ4NA
