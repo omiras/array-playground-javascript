@@ -15,6 +15,13 @@ for (let i = 0; i < muchosPeces.length; i++) {
   console.log("Pez siguiente: " + siguientePez);
 
   // Modifica SOLAMENTE a partir de aquí
+  
+  // Si siguientePez es Nemo, mostrar un mensaje diciendo que hemos encontrado a Nemo. En otro caso, mostrar un mensaje diciendo que no hemos encontrado a Nemo
+  if (siguientePez == "Nemo") {
+    console.log("He encontrado a Nemo!");
+  } else {
+    console.log("Este pez NO es Nemo!");
+  }
 }
 
 /**
