@@ -10,3 +10,7 @@ let otrosPeces = ["Pinky", "Boby", "Esteban", "Enrique"];
 // Cambiar SOLAMENTE las dos siguientes líneas:
 console.log(peces);
 console.log(otrosPeces);
+
+/**
+ * Resultado esperado: https://oscarm.tinytake.com/msc/ODc5NTE0M18yMjIxODQ4NA
+ */
