@@ -5,7 +5,6 @@
 */
 
 function isFishHere(fishes, fishToFind) {
-
 }
 
 // Conjunto de pruebas para isFishHere
