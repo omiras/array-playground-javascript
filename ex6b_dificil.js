@@ -13,5 +13,4 @@ function countSixes(rolls) {
 console.log(countSixes([1, 2, 6, 4, 6, 5])); // 2 -> Salieron dos 6
 console.log(countSixes([6, 6, 6, 6, 6]));   // 5 -> Todos fueron 6
 console.log(countSixes([1, 2, 3, 4, 5]));   // 0 -> No salió ningún 6
-console.log(countSixes([]));                // 0 -> No hubo lanzamientos
 console.log(countSixes([6, 3, 6, 6, 2]));   // 3 -> Hay tres veces el número 6
