@@ -5,9 +5,9 @@
 /**
  * Ejecuta el código.
  * La variable 'pezEncontrado' acabará valiendo true si encontramos 
- * Sin embargo devuelve false. Hay DOS errores:
+ * Sin embargo devuelve false. 
  *
- * 1. Un error lógico; que hace que el código no funcione como esperamos, puesto que "Estrella" SI está en el array de peces
+ * Hay un error lógico que hace que el código no funcione como esperamos, puesto que "Estrella" SI está en el array de peces
  *
  * Pon "chivatos" en el código para aydarte a averiguar que está sucediendo; o usa el depurador de Visual Studio para ejecutar el código paso a paso
  */
