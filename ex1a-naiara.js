@@ -5,7 +5,14 @@
  * 3. El tercer elemento es un boleano donde true significa que estás trabajando, y false que no estás trabajando en este momento
  * 4. Muestra el array por el terminal
  * 
- * ¿Qué nombre adecuado le pondríais a la variable que almacena esta información? Corregir 11.26.
+ * 
  */
-const misDatos = ["Oscar", 44, true];
+
+let nombre = "Naiara";
+let edad = 30;
+let trabajando = false;
+
+// Crear un array a partir del valor de estas variables
+let misDatos = [nombre, edad, trabajando];
+
 console.log(misDatos);
