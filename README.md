@@ -14,6 +14,10 @@ Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código
 
 [Click para ver el resultado esperado](https://oscarm.tinytake.com/msc/ODc5NTE0M18yMjIxODQ4NA)
 
+### ex1a.js
+
+
+<img src="https://oscarm.tinytake.com/media/18782d0?filename=1785825894698_TinyTake04-08-2026-08-44-50_639214226939920551.png&sub_type=thumbnail_preview&type=attachment&width=796&height=111" title="Powered by TinyTake Screen Capture"/><br>
 ### ex1b.js
 
 <img src="https://oscarm.tinytake.com/media/1878298?filename=1785824727595_TinyTake04-08-2026-08-25-24_639214215270575986.png&sub_type=thumbnail_preview&type=attachment&width=796&height=111" title="Powered by TinyTake Screen Capture"/><br>
@@ -25,3 +29,4 @@ Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código
 ### ex1d.js
 
 <img src="https://oscarm.tinytake.com/media/18782b7?filename=1785825574354_TinyTake04-08-2026-08-39-32_639214223739122043.png&sub_type=thumbnail_preview&type=attachment&width=797&height=172" title="Powered by TinyTake Screen Capture"/><br>
+
