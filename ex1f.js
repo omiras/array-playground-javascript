@@ -30,8 +30,8 @@ const reservasTrivago = [
 ];
 
 /**
- * El método .length https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/length  nos permite conocer el tamaño de un array. Úsalo adecuadamente para obtener las reservas totales a través de las plataformas Booking y Trivago 
+ * El método .length https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/length  nos permite conocer el tamaño de un array. Úsalo adecuadamente para obtener las reservas totales a través de las plataformas Booking y Trivago . Corregir 13.45
  */
 
-let reservasTotales = 0; // <-- MODIFICA ESTA LÍNEA
+let reservasTotales = reservasBooking.length + reservasTrivago.length; // <-- MODIFICA ESTA LÍNEA
 console.log("Reservas totales: ", reservasTotales);

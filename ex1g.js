@@ -8,7 +8,7 @@
 const elementos = [0, "Andres", "Miguel", 61, true];
 
 console.log(elementos[0]==0); // true
-console.log(elementos[1]=="Andres"); // ?
+console.log(elementos[1]=="Andres"); // ...
 console.log(elementos[1].length); // ?
 console.log(elementos[2][1]); // ?
 console.log(elementos[3]>65); // ?

@@ -12,6 +12,6 @@ console.log("Cola del supermercado: ", cola);
 
 console.log("¡Juan! Su turno.");
 // Tu línea de código a continuación
-
+cola.shift();
 // No modificar a partir de aquí
 console.log("Cola actualizada tras irse Juan: ", cola);
