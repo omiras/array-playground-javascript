@@ -1,7 +1,9 @@
 /**
- * En Femxa Llevamos un registro de a qué hora se conecta los alumnos. 
+ * En Femxa Llevamos un registro de a qué hora se conecta los alumnos.
+ * Queremos automatizar este servicio mediante programación.
+ *  
  * Para simplificar, pensaremos que un alumno puede entrar solamente a las 10h, a las 11h, a las 12h o a las 13h. 
- * Se considera que un alumno ha llegado tarde si entra más tarde de las 10h. En la siguiente captura de pantalla real, vemos que 2 alumnos han llegado pasadas las 10h: https://oscarm.tinytake.com/media/187835b?filename=1785828368360_TinyTake04-08-2026-09-25-57_639214251676250514.png&sub_type=thumbnail_preview&type=attachment&width=207&height=599
+ * Se considera que un alumno ha llegado tarde si entra más tarde de las 10h. En la siguiente captura de pantalla real, vemos que 2 alumnos han llegado tarde pasadas las 10h: https://oscarm.tinytake.com/media/187835b?filename=1785828368360_TinyTake04-08-2026-09-25-57_639214251676250514.png&sub_type=thumbnail_preview&type=attachment&width=207&height=599
  */
 
 /**
