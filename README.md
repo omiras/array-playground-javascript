@@ -37,3 +37,7 @@ Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código
 ### ex1f.js
 
 <img src="https://oscarm.tinytake.com/media/1878339?filename=1785827788753_TinyTake04-08-2026-09-16-26_639214245880686498.png&sub_type=thumbnail_preview&type=attachment&width=787&height=110" title="Powered by TinyTake Screen Capture"/><br>
+
+### ex1h-dificil.js
+
+<img src="https://oscarm.tinytake.com/media/187836c?filename=1785828677099_TinyTake04-08-2026-09-31-15_639214254762866134.png&sub_type=thumbnail_preview&type=attachment&width=791&height=78" title="Powered by TinyTake Screen Capture"/><br><a href="https://www.tinytake.com">Powered by TinyTake Screen Capture</a>

@@ -18,5 +18,5 @@ for (let i=0; i<horaConexion.length; i++) {
 }
 
 // NO MODIFICAR
-console.log(`El 2 de julio llegaron tarde ${numPersonasTarde} en total.`)
+console.log(`El 2 de julio llegaron tarde ${numPersonasTarde} personas en total.`)
 
