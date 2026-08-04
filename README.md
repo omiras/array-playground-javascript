@@ -11,6 +11,9 @@ Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código
 ## Resultados esperados para cada ejercicio
 
 ### ex1.js
-![](https://oscarm.tinytake.com/msc/ODc5NTE0M18yMjIxODQ4NA)
+
+[Click para ver el resultado esperado](https://oscarm.tinytake.com/msc/ODc5NTE0M18yMjIxODQ4NA)
+
+### ex2.js
 
 
