@@ -33,3 +33,7 @@ Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código
 ### ex1e.js
 
 <img src="https://oscarm.tinytake.com/media/18782e3?filename=1785826192354_TinyTake04-08-2026-08-49-49_639214229917433670.png&sub_type=thumbnail_preview&type=attachment&width=800&height=94" title="Powered by TinyTake Screen Capture"/><br>
+
+### ex1f.js
+
+<img src="https://oscarm.tinytake.com/media/1878339?filename=1785827788753_TinyTake04-08-2026-09-16-26_639214245880686498.png&sub_type=thumbnail_preview&type=attachment&width=787&height=110" title="Powered by TinyTake Screen Capture"/><br>
