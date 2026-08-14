@@ -12,6 +12,7 @@
 
  /**
   * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
+  * RESPUESTA: JavaScript es case sensitive, es decir, disintingue mayúsuclas de minúsuclas. Entonces, para indexOf "estrella" no es el mismo valor que "Estrella"
   */
 
   let pezPosicion2 = muchos_peces.indexOf("estrella")

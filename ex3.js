@@ -16,6 +16,7 @@
 
 /**
  * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+ * Respuesta: porque el bucle evalua el índice muchos_peces[4], pero la posición 5 en el array, no existe. Solo hay 4 elementos
  */
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"];
