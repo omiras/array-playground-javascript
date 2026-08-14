@@ -6,7 +6,19 @@
  */
 
 function countSixes(rolls) {
-    // RECUERDA: PRIMERO escribe lo que hay que hacer con tus palabras. Luego, viene el código
+    // 1. Empezamos con un contador a 0.
+    // 2. Recorremos todos los lanzamientos con un bucle.
+    // 3. Si el valor actual es 6, aumentamos el contador.
+    // 4. Al final devolvemos el número total de 6.
+    let count = 0;
+
+    for (let i = 0; i < rolls.length; i++) {
+        if (rolls[i] === 6) {
+            count++;
+        }
+    }
+
+    return count;
 }
 
 // Ejemplo de uso:

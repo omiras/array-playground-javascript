@@ -6,13 +6,16 @@
  */
 
 function shoutPlayerNames(players) {
-    // RECUERDA: PRIMERO escribe lo que hay que hacer con tus palabras. Luego, viene el código
+    // 1. Creamos un array vacío donde guardaremos los nombres ya convertidos.
+    // 2. Recorremos cada nombre con un bucle.
+    // 3. Convertimos cada nombre a mayúsculas y lo añadimos al nuevo array.
     let arrayUpperCase = [];
 
-    // Codificar aquí....
+    for (let i = 0; i < players.length; i++) {
+        arrayUpperCase.push(players[i].toUpperCase());
+    }
 
     return arrayUpperCase;
-
 }
 
 // Ejemplo de uso:
