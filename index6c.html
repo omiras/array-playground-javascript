@@ -40,7 +40,13 @@ false</pre>
     </main>
     <script>
       function hasThreeInARow(candies) {
-        // Completa la función.
+        for (let i = 0; i + 2 < candies.length; i++) {
+          if (candies[i] === candies[i + 1] && candies[i] === candies[i + 2]) {
+            return true;
+          }
+        }
+
+        return false;
       }
 
       // Ejemplo de uso:

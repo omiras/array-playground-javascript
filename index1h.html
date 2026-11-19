@@ -41,7 +41,9 @@ console.log(diasCalurosos); // 1</code></pre>
       let numPersonasTarde = 0;
 
       for (let i = 0; i < horaConexion.length; i++) {
-        // Completa el cuerpo del bucle.
+        if (horaConexion[i] > 10) {
+          numPersonasTarde++;
+        }
       }
 
       console.log(`El 2 de julio llegaron tarde ${numPersonasTarde} personas en total.`);

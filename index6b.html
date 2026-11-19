@@ -44,7 +44,15 @@ console.log(contarLluvia(["sol", "lluvia"])); // 1</code></pre>
     </main>
     <script>
       function countSixes(rolls) {
-        // Completa la función.
+        let total = 0;
+
+        for (const roll of rolls) {
+          if (roll === 6) {
+            total++;
+          }
+        }
+
+        return total;
       }
 
       // Ejemplo de uso:

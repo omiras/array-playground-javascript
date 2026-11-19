@@ -43,7 +43,11 @@ Este pez NO es Nemo!</pre>
 
       for (let i = 0; i < muchosPeces.length; i++) {
         let siguientePez = muchosPeces[i];
-        // Escribe tu condicional aquí.
+        if (siguientePez === "Nemo") {
+          console.log("He encontrado a Nemo!");
+        } else {
+          console.log("Este pez NO es Nemo!");
+        }
       }
     </script>
   </body>

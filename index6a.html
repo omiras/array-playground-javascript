@@ -41,7 +41,9 @@ console.log(enMayusculas); // ["MADRID", "BILBAO"]</code></pre>
       function shoutPlayerNames(players) {
         const arrayUpperCase = [];
 
-        // Recorre el array y guarda cada nombre transformado.
+        for (const player of players) {
+          arrayUpperCase.push(player.toUpperCase());
+        }
 
         return arrayUpperCase;
       }

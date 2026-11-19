@@ -24,17 +24,21 @@ console.log(frutas[2]); // "kiwi"</code></pre>
         <p>Ejecuta el código y explica por qué el último mensaje dice «Pez siguiente: undefined». Como reto adicional, corrige el límite y cambia los nombres de las variables a camelCase.</p>
         <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
       </section>
+      <section aria-labelledby="respuesta">
+        <h2 id="respuesta">Explicación</h2>
+        <p>La condición original permite que i llegue a 4, que es la longitud del array. El último índice válido es 3. Al leer la posición 4, JavaScript devuelve undefined.</p>
+      </section>
       <details>
         <summary>Resultado esperado</summary>
         <pre>Al corregir el límite se muestran Dory, Nemo, Shipho y Estrella, en ese orden.</pre>
       </details>
     </main>
     <script>
-      let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"];
+      let muchosPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
 
-      for (let i = 0; i <= muchos_peces.length; i++) {
-        let siguiente_pez = muchos_peces[i];
-        console.log("Pez siguiente: " + siguiente_pez);
+      for (let i = 0; i < muchosPeces.length; i++) {
+        let siguientePez = muchosPeces[i];
+        console.log("Pez siguiente: " + siguientePez);
       }
     </script>
   </body>

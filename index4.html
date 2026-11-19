@@ -24,6 +24,10 @@ console.log(figuras.indexOf("triángulo")); // -1</code></pre>
         <p>Ejecuta el código y explica por qué indexOf da resultados distintos al buscar «Nemo» y «estrella». Prueba después con «Estrella».</p>
         <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
       </section>
+      <section aria-labelledby="respuesta">
+        <h2 id="respuesta">Explicación</h2>
+        <p>La búsqueda distingue mayúsculas de minúsculas. «Nemo» coincide con el elemento del índice 1. «estrella» se escribe con minúscula y no coincide con «Estrella», que ocupa el índice 3.</p>
+      </section>
       <details>
         <summary>Resultado esperado</summary>
         <pre>Nemo está en la posición: 1
@@ -36,6 +40,8 @@ Al buscar «Estrella» se obtiene 3.</pre>
 
       console.log("Nemo está en la posición: " + muchosPeces.indexOf("Nemo"));
       console.log("«estrella» está en la posición: " + muchosPeces.indexOf("estrella"));
+
+      console.log("«Estrella» está en la posición: " + muchosPeces.indexOf("Estrella"));
     </script>
   </body>
 </html>
