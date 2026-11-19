@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5b - Devolver el resultado de una búsqueda</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 5b · Devolver el resultado de una búsqueda</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Una función puede devolver el resultado de includes directamente mediante return.</p>
+        <pre><code>function hayTalla(tallas, tallaBuscada) {
+  return tallas.includes(tallaBuscada);
+}
+
+console.log(hayTalla(["S", "M"], "M")); // true</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Completa isFishHere. Usa includes para devolver true si fishToFind está en fishes y false en caso contrario.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>true
+true
+true
+true
+false
+true
+false
+false</pre>
+      </details>
+    </main>
+    <script>
+      function isFishHere(fishes, fishToFind) {
+        // Completa la función.
+      }
+
+      // Conjunto de pruebas para isFishHere
+
+      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Nemo"));
+      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Dory"));
+      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Marlin"));
+      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Bruce"));
+      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Flounder"));
+      console.log(isFishHere(["Flounder", "Sebastian", "Scuttle"], "Flounder"));
+      console.log(isFishHere(["Flounder", "Sebastian", "Scuttle"], "Dory"));
+      console.log(isFishHere(["Nemo", "Dory", "Marlin"], "nemo"));
+    </script>
+  </body>
+</html>

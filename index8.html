@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8 - Aplicar un estilo a partir de un array</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 8 · Aplicar un estilo a partir de un array</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Puedes leer el nombre de una clase CSS mediante su índice y pasarlo a classList.add.</p>
+        <pre><code>const tamaños = ["mediano", "grande"];
+const titulo = document.querySelector("h1");
+titulo.classList.add(tamaños[1]);</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Actualiza seleccion para obtener fancy de estilosDisponibles mediante su índice. Comprueba que el párrafo cambia de estilo al recargar.</p>
+        <p id="vista-previa">Este párrafo muestra el estilo aplicado.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>El párrafo de vista previa aparece con el estilo fancy.</pre>
+      </details>
+    </main>
+    <script>
+      const estilosDisponibles = ["default", "fancy", "dark"];
+      let seleccion = "default";
+
+      // Actualiza seleccion aquí.
+
+      document.querySelector("#vista-previa").classList.add(seleccion);
+    </script>
+  </body>
+</html>

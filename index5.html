@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 - Comprobar si un valor está en un array</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 5 · Comprobar si un valor está en un array</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>includes comprueba si un valor aparece en el array.</p>
+        <pre><code>const tallas = ["S", "M", "L"];
+console.log(tallas.includes("M")); // true
+console.log(tallas.includes("XL")); // false</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Explica por qué la primera búsqueda devuelve true y la segunda devuelve false. Indica qué tipo de dato devuelve includes.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>true
+false</pre>
+      </details>
+    </main>
+    <script>
+      const muchosPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
+
+      console.log(muchosPeces.includes("Nemo"));
+      console.log(muchosPeces.includes("Pepitillo"));
+    </script>
+  </body>
+</html>

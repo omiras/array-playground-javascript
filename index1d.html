@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1d - Atender al primero de la cola</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 1d · Atender al primero de la cola</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>push añade un elemento al final del array. shift quita el primero y desplaza los demás una posición.</p>
+        <pre><code>const turnos = ["A12", "A13"];
+turnos.push("A14");
+turnos.shift();
+console.log(turnos); // ["A13", "A14"]</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Cuando llaman a Juan, retíralo de la cola con el método adecuado. Añade una sola línea después del aviso.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>Cola del supermercado: ["Juan", "María", "Carlos"]
+¡Juan! Su turno.
+Cola actualizada tras irse Juan: ["María", "Carlos"]</pre>
+      </details>
+    </main>
+    <script>
+      let cola = [];
+
+      cola.push("Juan");
+      cola.push("María");
+      cola.push("Carlos");
+
+      console.log("Cola del supermercado: ", cola);
+
+
+      console.log("¡Juan! Su turno.");
+      // Tu línea de código a continuación
+
+      console.log("Cola actualizada tras irse Juan: ", cola);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 - Localizar un elemento con indexOf</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 4 · Localizar un elemento con indexOf</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>indexOf devuelve el índice de la primera coincidencia exacta. Si el valor buscado no aparece, devuelve -1.</p>
+        <pre><code>const figuras = ["círculo", "cuadrado"];
+console.log(figuras.indexOf("cuadrado")); // 1
+console.log(figuras.indexOf("triángulo")); // -1</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Ejecuta el código y explica por qué indexOf da resultados distintos al buscar «Nemo» y «estrella». Prueba después con «Estrella».</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>Nemo está en la posición: 1
+«estrella» está en la posición: -1
+Al buscar «Estrella» se obtiene 3.</pre>
+      </details>
+    </main>
+    <script>
+      const muchosPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
+
+      console.log("Nemo está en la posición: " + muchosPeces.indexOf("Nemo"));
+      console.log("«estrella» está en la posición: " + muchosPeces.indexOf("estrella"));
+    </script>
+  </body>
+</html>

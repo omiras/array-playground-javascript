@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6c - Detectar tres caramelos iguales seguidos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 6c (difícil) · Detectar tres caramelos iguales seguidos</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Desde un índice i puedes comparar el elemento que estás visitando con sus vecinos. Ajusta el límite para que todas las posiciones que consultas existan.</p>
+        <pre><code>const luces = ["roja", "verde", "verde"];
+
+for (let i = 0; i + 1 &lt; luces.length; i++) {
+  if (luces[i] === luces[i + 1]) {
+    console.log("Pareja en el índice", i);
+  }
+}</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Completa hasThreeInARow. Devuelve true si encuentras tres o más caramelos iguales consecutivos y false en los demás casos. Antes de programar, describe los pasos con tus palabras.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>true
+true
+false
+true
+false
+false</pre>
+      </details>
+    </main>
+    <script>
+      function hasThreeInARow(candies) {
+        // Completa la función.
+      }
+
+      // Ejemplo de uso:
+      console.log(hasThreeInARow(["🍬", "🍬", "🍬", "🍫", "🍭"]));
+      console.log(hasThreeInARow(["🍫", "🍬", "🍭", "🍭", "🍭"]));
+      console.log(hasThreeInARow(["🍬", "🍫", "🍭", "🍬", "🍫"]));
+      console.log(hasThreeInARow(["🍬", "🍬", "🍬", "🍬", "🍬"]));
+      console.log(hasThreeInARow(["🍫", "🍭", "🍬"]));
+      console.log(hasThreeInARow([]));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Acceder a elementos por su índice</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 1 · Acceder a elementos por su índice</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Cada elemento ocupa una posición. El primer índice es 0 y el segundo es 1.</p>
+        <pre><code>const colores = ["rojo", "verde", "azul"];
+console.log(colores[2]); // "azul"</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Cambia únicamente los dos console.log para mostrar Dory y Boby, en ese orden. Accede a cada nombre mediante su índice.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>Dory
+Boby</pre>
+      </details>
+    </main>
+    <script>
+      const peces = ["Dory", "Nemo"];
+      const otrosPeces = ["Pinky", "Boby", "Esteban", "Enrique"];
+
+      console.log(peces);
+      console.log(otrosPeces);
+    </script>
+  </body>
+</html>

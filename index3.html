@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Detectar un índice fuera del array</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 3 · Detectar un índice fuera del array</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Los índices empiezan en 0. Para tres elementos, los índices que existen son 0, 1 y 2.</p>
+        <pre><code>const frutas = ["pera", "uva", "kiwi"];
+console.log(frutas.length); // 3
+console.log(frutas[2]); // "kiwi"</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Ejecuta el código y explica por qué el último mensaje dice «Pez siguiente: undefined». Como reto adicional, corrige el límite y cambia los nombres de las variables a camelCase.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>Al corregir el límite se muestran Dory, Nemo, Shipho y Estrella, en ese orden.</pre>
+      </details>
+    </main>
+    <script>
+      let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"];
+
+      for (let i = 0; i <= muchos_peces.length; i++) {
+        let siguiente_pez = muchos_peces[i];
+        console.log("Pez siguiente: " + siguiente_pez);
+      }
+    </script>
+  </body>
+</html>

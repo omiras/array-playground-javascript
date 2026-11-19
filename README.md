@@ -1,43 +1,29 @@
-# Ejercicios Array 
+# Ejercicios de arrays en JavaScript
 
-Completa los siguientes ejercicios sobre arrays.
+1. Abre el archivo HTML del ejercicio directamente en el navegador.
+2. Lee el ejemplo de «Antes de empezar» y sigue el enunciado de «Tu turno».
+3. Abre la consola con **F12 → Consola**. Si el ejercicio pide editar el código, modifica el último bloque `<script>`, guarda y recarga la página. En el ejercicio 8 el resultado se ve en la propia página.
 
-## ¿Cómo hacerlo?
+| Ejercicio | Tema |
+| --- | --- |
+| [1](index1.html) | Acceder a elementos por su índice |
+| [1a](index1a.html) | Crear un array con distintos tipos |
+| [1b](index1b.html) | Obtener el último elemento con at |
+| [1c](index1c.html) | Modificar elementos por su índice |
+| [1d](index1d.html) | Atender al primero de la cola |
+| [1e](index1e.html) | Concatenar dos arrays |
+| [1f](index1f.html) | Calcular el total de reservas |
+| [1g](index1g.html) | Predecir el valor de expresiones |
+| [1h](index1h.html) | Contar llegadas tarde (difícil) |
+| [2](index2.html) | Buscar a Nemo al recorrer un array |
+| [3](index3.html) | Detectar un índice fuera del array |
+| [4](index4.html) | Localizar un elemento con indexOf |
+| [5](index5.html) | Comprobar si un valor está en un array |
+| [5b](index5b.html) | Devolver el resultado de una búsqueda |
+| [6](index6.html) | Depurar la búsqueda con while |
+| [6a](index6a.html) | Convertir nombres a mayúsculas |
+| [6b](index6b.html) | Contar cuántas veces salió un seis (difícil) |
+| [6c](index6c.html) | Detectar tres caramelos iguales seguidos (difícil) |
+| [8](index8.html) | Aplicar un estilo a partir de un array |
 
-En un terminal escribe `node ex1.js` y observa el resultado.
-
-Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código tenéis lo que hay que hacer.
-
-## Resultados esperados para cada ejercicio
-
-### ex1.js
-
-[Click para ver el resultado esperado](https://oscarm.tinytake.com/msc/ODc5NTE0M18yMjIxODQ4NA)
-
-### ex1a.js
-
-
-<img src="https://oscarm.tinytake.com/media/18782d0?filename=1785825894698_TinyTake04-08-2026-08-44-50_639214226939920551.png&sub_type=thumbnail_preview&type=attachment&width=796&height=111" title="Powered by TinyTake Screen Capture"/><br>
-### ex1b.js
-
-<img src="https://oscarm.tinytake.com/media/1878298?filename=1785824727595_TinyTake04-08-2026-08-25-24_639214215270575986.png&sub_type=thumbnail_preview&type=attachment&width=796&height=111" title="Powered by TinyTake Screen Capture"/><br>
-
-### ex1c.js
-
-<img src="https://oscarm.tinytake.com/media/18782a7?filename=1785825173881_TinyTake04-08-2026-08-32-49_639214219731649886.png&sub_type=thumbnail_preview&type=attachment&width=787&height=96" title="Powered by TinyTake Screen Capture"/><br>
-
-### ex1d.js
-
-<img src="https://oscarm.tinytake.com/media/18782b7?filename=1785825574354_TinyTake04-08-2026-08-39-32_639214223739122043.png&sub_type=thumbnail_preview&type=attachment&width=797&height=172" title="Powered by TinyTake Screen Capture"/><br>
-
-### ex1e.js
-
-<img src="https://oscarm.tinytake.com/media/18782e3?filename=1785826192354_TinyTake04-08-2026-08-49-49_639214229917433670.png&sub_type=thumbnail_preview&type=attachment&width=800&height=94" title="Powered by TinyTake Screen Capture"/><br>
-
-### ex1f.js
-
-<img src="https://oscarm.tinytake.com/media/1878339?filename=1785827788753_TinyTake04-08-2026-09-16-26_639214245880686498.png&sub_type=thumbnail_preview&type=attachment&width=787&height=110" title="Powered by TinyTake Screen Capture"/><br>
-
-### ex1h-dificil.js
-
-<img src="https://oscarm.tinytake.com/media/187836c?filename=1785828677099_TinyTake04-08-2026-09-31-15_639214254762866134.png&sub_type=thumbnail_preview&type=attachment&width=791&height=78" title="Powered by TinyTake Screen Capture"/><br><a href="https://www.tinytake.com">Powered by TinyTake Screen Capture</a>
+La rama `solution-html` contiene las soluciones en el mismo formato. La rama `node` conserva los ejercicios y ejemplos originales.

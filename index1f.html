@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1f - Calcular el total de reservas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 1f · Calcular el total de reservas</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>La propiedad length indica cuántos elementos tiene un array. Puedes sumar la longitud de dos listas para obtener su total.</p>
+        <pre><code>const lunes = ["Ana", "Luis"];
+const martes = ["Eva"];
+console.log(lunes.length + martes.length); // 3</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Modifica la asignación de reservasTotales para calcular cuántas reservas hay entre Booking y Trivago. Usa length.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>Reservas totales: 25</pre>
+      </details>
+    </main>
+    <script>
+      const reservasBooking = [
+          "03/08/2026",
+          "07/08/2026",
+          "12/08/2026",
+          "18/08/2026",
+          "24/08/2026",
+          "29/08/2026",
+          "04/09/2026",
+          "11/09/2026",
+          "17/09/2026",
+          "25/09/2026"
+      ];
+
+      const reservasTrivago = [
+          "01/08/2026",
+          "05/08/2026",
+          "09/08/2026",
+          "15/08/2026",
+          "21/08/2026",
+          "27/08/2026",
+          "31/08/2026",
+          "06/09/2026",
+          "09/09/2026",
+          "14/09/2026",
+          "19/09/2026",
+          "22/09/2026",
+          "28/09/2026",
+          "03/10/2026",
+          "08/10/2026"
+      ];
+
+      let reservasTotales = 0; // Completa la asignación.
+      console.log("Reservas totales: ", reservasTotales);
+    </script>
+  </body>
+</html>

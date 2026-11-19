@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1b - Obtener el último elemento con at</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 1b · Obtener el último elemento con at</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>El método at acepta índices negativos. Un índice negativo cuenta desde el final del array.</p>
+        <pre><code>const meses = ["enero", "febrero", "marzo"];
+console.log(meses.at(-1)); // "marzo"</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Asigna a ultimoPez el último elemento de peces usando at.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>Estrella</pre>
+      </details>
+    </main>
+    <script>
+      const peces = ["Dory", "Nemo", "Estrella"];
+      let ultimoPez; // Completa la asignación.
+      console.log(ultimoPez);
+    </script>
+  </body>
+</html>

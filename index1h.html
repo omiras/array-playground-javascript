@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1h - Contar llegadas tarde</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 1h (difícil) · Contar llegadas tarde</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Para contar cuántos elementos cumplen una condición, recorre el array y aumenta un contador cada vez que se cumpla.</p>
+        <pre><code>const temperaturas = [18, 26, 22];
+let diasCalurosos = 0;
+
+for (let i = 0; i &lt; temperaturas.length; i++) {
+  if (temperaturas[i] &gt; 25) {
+    diasCalurosos++;
+  }
+}
+
+console.log(diasCalurosos); // 1</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>El 2 de julio, cada persona entró a las 10, 11, 12 o 13 h. Completa el cuerpo del for para contar cuántas entraron después de las 10 h.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>El 2 de julio llegaron tarde 4 personas en total.</pre>
+      </details>
+    </main>
+    <script>
+      const horaConexion = [10, 10, 10, 11, 10, 12, 12, 10, 10, 12];
+      let numPersonasTarde = 0;
+
+      for (let i = 0; i < horaConexion.length; i++) {
+        // Completa el cuerpo del bucle.
+      }
+
+      console.log(`El 2 de julio llegaron tarde ${numPersonasTarde} personas en total.`);
+    </script>
+  </body>
+</html>

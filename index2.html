@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Buscar a Nemo al recorrer un array</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 2 · Buscar a Nemo al recorrer un array</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Dentro de un bucle, un if…else permite elegir qué hacer con cada elemento según cumpla una condición.</p>
+        <pre><code>const tareas = ["leer", "descansar"];
+
+for (let i = 0; i &lt; tareas.length; i++) {
+  if (tareas[i] === "leer") {
+    console.log("Abre el libro");
+  } else {
+    console.log("Tómate un descanso");
+  }
+}</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Añade un if…else dentro del bucle. Si siguientePez es Nemo, muestra «He encontrado a Nemo!». Para cualquier otro pez, muestra «Este pez NO es Nemo!». Deben aparecer cuatro mensajes.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>Este pez NO es Nemo!
+He encontrado a Nemo!
+Este pez NO es Nemo!
+Este pez NO es Nemo!</pre>
+      </details>
+    </main>
+    <script>
+      let muchosPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
+
+      for (let i = 0; i < muchosPeces.length; i++) {
+        let siguientePez = muchosPeces[i];
+        // Escribe tu condicional aquí.
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6b - Contar cuántas veces salió un seis</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 6b (difícil) · Contar cuántas veces salió un seis</h1>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Usa un contador para registrar cada coincidencia. Inícialo antes del bucle y devuelve su valor después de recorrer el array.</p>
+        <pre><code>function contarLluvia(dias) {
+  let total = 0;
+
+  for (const dia of dias) {
+    if (dia === "lluvia") {
+      total++;
+    }
+  }
+
+  return total;
+}
+
+console.log(contarLluvia(["sol", "lluvia"])); // 1</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Completa countSixes para devolver cuántas veces aparece el número 6 en el array de tiradas. Antes de programar, describe los pasos con tus palabras.</p>
+        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado</summary>
+        <pre>2
+5
+0
+3</pre>
+      </details>
+    </main>
+    <script>
+      function countSixes(rolls) {
+        // Completa la función.
+      }
+
+      // Ejemplo de uso:
+      console.log(countSixes([1, 2, 6, 4, 6, 5]));
+      console.log(countSixes([6, 6, 6, 6, 6]));
+      console.log(countSixes([1, 2, 3, 4, 5]));
+      console.log(countSixes([6, 3, 6, 6, 2]));
+    </script>
+  </body>
+</html>
