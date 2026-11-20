@@ -3,38 +3,45 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 1e - Concatenar dos arrays</title>
+    <title>Ejercicio 1e - Concatenar tres arrays</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main class="lesson">
       <header>
-        <h1>Ejercicio 1e · Concatenar dos arrays</h1>
+        <h1>Ejercicio 1e · Concatenar tres arrays</h1>
       </header>
       <section aria-labelledby="teoria">
         <h2 id="teoria">Antes de empezar</h2>
-        <p>concat crea un array nuevo. Coloca primero los elementos del array que llama al método y después los del array que recibe como argumento.</p>
+        <p><a href="https://www.w3schools.com/jsref/jsref_concat_array.asp" target="_blank" rel="noopener noreferrer">concat</a> crea un array nuevo. Coloca primero los elementos del array que llama al método y después los de los arrays que recibe como argumentos.</p>
         <pre><code>const mañana = [8, 9];
 const tarde = [15, 16];
-console.log(mañana.concat(tarde)); // [8, 9, 15, 16]</code></pre>
+const noche = [20, 21];
+console.log(mañana.concat(tarde, noche)); // [8, 9, 15, 16, 20, 21]</code></pre>
       </section>
       <section aria-labelledby="practica">
         <h2 id="practica">Tu turno</h2>
         <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
-        <p>Usa concat para combinar ambos arrays. El resultado debe quedar en orden numérico ascendente y conservar los valores repetidos.</p>
+        <p>Usa concat para combinar <em>primerosNumeros</em>, <em>numerosIntermedios</em> y <em>ultimosNumeros</em> en <em>secuencia</em>. El resultado final debe ser <strong>[4, 8, 15, 16, 23, 42]</strong>.</p>
         <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+      </section>
+      <section aria-labelledby="bonus">
+        <h2 id="bonus">Bonus</h2>
+        <p>¿A qué famosa serie hace referencia esta secuencia numérica?</p>
+        <p><strong>Respuesta:</strong> Perdidos (Lost).</p>
       </section>
       <details>
         <summary>Resultado esperado</summary>
-        <pre>[1, 2, 3, 3, 4, 5, 6]</pre>
+        <pre>[4, 8, 15, 16, 23, 42]</pre>
       </details>
     </main>
     <script>
-      const array1 = [3, 4, 5, 6];
-      const array2 = [1, 2, 3];
+      const primerosNumeros = [4, 8];
+      const numerosIntermedios = [15, 16];
+      const ultimosNumeros = [23, 42];
 
-      let arrayResultado = array2.concat(array1);
-      console.log(arrayResultado);
+      let secuencia = primerosNumeros.concat(numerosIntermedios, ultimosNumeros);
+      console.log(secuencia);
     </script>
   </body>
 </html>

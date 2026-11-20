@@ -13,9 +13,9 @@
       </header>
       <section aria-labelledby="teoria">
         <h2 id="teoria">Antes de empezar</h2>
-        <p>push añade un elemento al final del array. shift quita el primero y desplaza los demás una posición.</p>
+        <p><a href="https://www.w3schools.com/jsref/jsref_push.asp" target="_blank" rel="noopener noreferrer">push</a> añade un elemento al final del array. <a href="https://www.w3schools.com/jsref/jsref_shift.asp" target="_blank" rel="noopener noreferrer">shift</a> quita el primero y desplaza los demás una posición.</p>
         <pre><code>const turnos = ["A12", "A13"];
-turnos.push("A14");
+turnos.push("A14"); // turnos: ["A12", "A13", "A14"]
 turnos.shift();
 console.log(turnos); // ["A13", "A14"]</code></pre>
       </section>
@@ -43,7 +43,9 @@ Cola actualizada tras irse Juan: ["María", "Carlos"]</pre>
 
 
       console.log("¡Juan! Su turno.");
+      // ↓↓↓ ESCRIBE AQUÍ TU ÚNICA LÍNEA DE CÓDIGO ↓↓↓
       cola.shift();
+      // ↑↑↑ FIN DE TU CÓDIGO ↑↑↑
 
       console.log("Cola actualizada tras irse Juan: ", cola);
     </script>
