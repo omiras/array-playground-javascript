@@ -21,8 +21,12 @@ console.log(figuras.indexOf("triángulo")); // -1</code></pre>
       <section aria-labelledby="practica">
         <h2 id="practica">Tu turno</h2>
         <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
-        <p>Ejecuta el código y explica por qué indexOf da resultados distintos al buscar «Nemo» y «estrella». Prueba después con «Estrella».</p>
-        <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
+        <p>Ejecuta el código y responde:</p>
+        <ul>
+          <li>¿Por qué <code>muchosPeces.indexOf("Nemo")</code> se evalúa como 1?</li>
+          <li>¿Por qué <code>muchosPeces.indexOf("estrella")</code> se evalúa como -1?</li>
+        </ul>
+        <p>No tienes que escribir código: observa la consola y responde a las preguntas.</p>
       </section>
       <section aria-labelledby="respuesta">
         <h2 id="respuesta">Explicación</h2>
@@ -30,18 +34,15 @@ console.log(figuras.indexOf("triángulo")); // -1</code></pre>
       </section>
       <details>
         <summary>Resultado esperado</summary>
-        <pre>Nemo está en la posición: 1
-«estrella» está en la posición: -1
-Al buscar «Estrella» se obtiene 3.</pre>
+        <pre>Nemo está en el índice: 1
+«estrella» está en el índice: -1</pre>
       </details>
     </main>
     <script>
       const muchosPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
 
-      console.log("Nemo está en la posición: " + muchosPeces.indexOf("Nemo"));
-      console.log("«estrella» está en la posición: " + muchosPeces.indexOf("estrella"));
-
-      console.log("«Estrella» está en la posición: " + muchosPeces.indexOf("Estrella"));
+      console.log("Nemo está en el índice: " + muchosPeces.indexOf("Nemo"));
+      console.log("«estrella» está en el índice: " + muchosPeces.indexOf("estrella"));
     </script>
   </body>
 </html>

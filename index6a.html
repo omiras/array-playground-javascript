@@ -14,19 +14,23 @@
       <section aria-labelledby="teoria">
         <h2 id="teoria">Antes de empezar</h2>
         <p><a href="https://www.w3schools.com/jsref/jsref_touppercase.asp" target="_blank" rel="noopener noreferrer">toUpperCase</a> devuelve una cadena en mayúsculas. Puedes usar <a href="https://www.w3schools.com/jsref/jsref_push.asp" target="_blank" rel="noopener noreferrer">push</a> para guardar cada resultado en un array nuevo.</p>
-        <pre><code>const ciudades = ["Madrid", "Bilbao"];
-const enMayusculas = [];
+        <pre><code>const nombre = "Mario";
+const nombresEnMayusculas = [];
 
-for (const ciudad of ciudades) {
-  enMayusculas.push(ciudad.toUpperCase());
-}
+const nombreConvertido = nombre.toUpperCase(); // "MARIO"
+nombresEnMayusculas.push(nombreConvertido);
 
-console.log(enMayusculas); // ["MADRID", "BILBAO"]</code></pre>
+console.log(nombresEnMayusculas); // ["MARIO"]</code></pre>
       </section>
       <section aria-labelledby="practica">
         <h2 id="practica">Tu turno</h2>
         <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
-        <p>Completa <em>shoutPlayerNames</em> para devolver un array nuevo con todos los nombres en mayúsculas. Antes de programar, describe los pasos con tus palabras.</p>
+        <p>Completa <em>shoutPlayerNames</em> para devolver un array nuevo con todos los nombres en mayúsculas. Antes de programar, piensa:</p>
+        <ol>
+          <li>¿Cómo recorrer uno a uno los elementos del array <em>players</em>?</li>
+          <li>¿Cómo convertir a mayúsculas cada elemento de <em>players</em>?</li>
+          <li>¿Cómo añadir cada nombre convertido al nuevo array <em>arrayUpperCase</em>?</li>
+        </ol>
         <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
       </section>
       <details>
@@ -41,18 +45,18 @@ console.log(enMayusculas); // ["MADRID", "BILBAO"]</code></pre>
       function shoutPlayerNames(players) {
         const arrayUpperCase = [];
 
-        for (const player of players) {
-          arrayUpperCase.push(player.toUpperCase());
+        for (let i = 0; i < players.length; i++) {
+          arrayUpperCase.push(players[i].toUpperCase());
         }
 
         return arrayUpperCase;
       }
 
       // Ejemplo de uso:
-      console.log(shoutPlayerNames(["Mario", "Luigi", "Peach"]));
-      console.log(shoutPlayerNames(["Bowser", "Yoshi", "Toad"]));
-      console.log(shoutPlayerNames(["daisy", "wario", "waluigi"]));
-      console.log(shoutPlayerNames(["rosalina"]));
+      console.log(shoutPlayerNames(["Mario", "Luigi", "Peach"])); // ["MARIO", "LUIGI", "PEACH"]
+      console.log(shoutPlayerNames(["Bowser", "Yoshi", "Toad"])); // ["BOWSER", "YOSHI", "TOAD"]
+      console.log(shoutPlayerNames(["daisy", "wario", "waluigi"])); // ["DAISY", "WARIO", "WALUIGI"]
+      console.log(shoutPlayerNames(["rosalina"])); // ["ROSALINA"]
     </script>
   </body>
 </html>

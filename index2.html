@@ -13,11 +13,11 @@
       </header>
       <section aria-labelledby="teoria">
         <h2 id="teoria">Antes de empezar</h2>
-        <p>Dentro de un bucle, un if…else permite elegir qué hacer con cada elemento según cumpla una condición.</p>
+        <p>Dentro de un bucle, <em>if</em>…<em>else</em> permite elegir qué hacer con cada elemento según cumpla una condición.</p>
         <pre><code>const tareas = ["leer", "descansar"];
 
 for (let i = 0; i &lt; tareas.length; i++) {
-  if (tareas[i] === "leer") {
+  if (tareas[i] == "leer") {
     console.log("Abre el libro");
   } else {
     console.log("Tómate un descanso");
@@ -27,7 +27,7 @@ for (let i = 0; i &lt; tareas.length; i++) {
       <section aria-labelledby="practica">
         <h2 id="practica">Tu turno</h2>
         <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
-        <p>Añade un if…else dentro del bucle. Si <em>siguientePez</em> es Nemo, muestra «He encontrado a Nemo!». Para cualquier otro pez, muestra «Este pez NO es Nemo!». Deben aparecer cuatro mensajes.</p>
+        <p>Añade un <em>if</em>…<em>else</em> dentro del bucle. Si <em>siguientePez</em> es Nemo, muestra «He encontrado a Nemo!». Para cualquier otro pez, muestra «Este pez NO es Nemo!». Deben aparecer cuatro mensajes.</p>
         <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
       </section>
       <details>
@@ -43,7 +43,7 @@ Este pez NO es Nemo!</pre>
 
       for (let i = 0; i < muchosPeces.length; i++) {
         let siguientePez = muchosPeces[i];
-        if (siguientePez === "Nemo") {
+        if (siguientePez == "Nemo") {
           console.log("He encontrado a Nemo!");
         } else {
           console.log("Este pez NO es Nemo!");

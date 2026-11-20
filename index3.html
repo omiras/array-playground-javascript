@@ -21,7 +21,7 @@ console.log(frutas[2]); // "kiwi"</code></pre>
       <section aria-labelledby="practica">
         <h2 id="practica">Tu turno</h2>
         <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
-        <p>Ejecuta el código y explica por qué el último mensaje dice «Pez siguiente: undefined». Como reto adicional, corrige el límite y cambia los nombres de las variables a camelCase.</p>
+        <p>Ejecuta el código y explica por qué el último mensaje dice «Pez siguiente: undefined». Como reto adicional, corrige el límite del bucle.</p>
         <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
       </section>
       <section aria-labelledby="respuesta">
@@ -30,7 +30,13 @@ console.log(frutas[2]); // "kiwi"</code></pre>
       </section>
       <details>
         <summary>Resultado esperado</summary>
-        <pre>Al corregir el límite se muestran Dory, Nemo, Shipho y Estrella, en ese orden.</pre>
+        <p>Antes de corregir el límite, la consola muestra:</p>
+        <pre>Pez siguiente: Dory
+Pez siguiente: Nemo
+Pez siguiente: Shipho
+Pez siguiente: Estrella
+Pez siguiente: undefined</pre>
+        <p>Después de corregirlo, la última línea desaparece.</p>
       </details>
     </main>
     <script>
