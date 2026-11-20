@@ -45,14 +45,14 @@ false</pre>
 
       // Conjunto de pruebas para isFishHere
 
-      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Nemo"));
-      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Dory"));
-      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Marlin"));
-      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Bruce"));
-      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Flounder"));
-      console.log(isFishHere(["Flounder", "Sebastian", "Scuttle"], "Flounder"));
-      console.log(isFishHere(["Flounder", "Sebastian", "Scuttle"], "Dory"));
-      console.log(isFishHere(["Nemo", "Dory", "Marlin"], "nemo"));
+      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Nemo")); // true
+      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Dory")); // true
+      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Marlin")); // true
+      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Bruce")); // true
+      console.log(isFishHere(["Nemo", "Dory", "Marlin", "Bruce"], "Flounder")); // false
+      console.log(isFishHere(["Flounder", "Sebastian", "Scuttle"], "Flounder")); // true
+      console.log(isFishHere(["Flounder", "Sebastian", "Scuttle"], "Dory")); // false
+      console.log(isFishHere(["Nemo", "Dory", "Marlin"], "nemo")); // false
     </script>
   </body>
 </html>

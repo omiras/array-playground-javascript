@@ -13,12 +13,12 @@
       </header>
       <section aria-labelledby="teoria">
         <h2 id="teoria">Antes de empezar</h2>
-        <p>Desde un índice i puedes comparar el elemento que estás visitando con sus vecinos. Ajusta el límite para que todas las posiciones que consultas existan.</p>
+        <p>Desde un índice <em>i</em> puedes comparar el elemento que estás visitando con el siguiente. Ajusta el límite para que las dos posiciones que consultas existan.</p>
         <pre><code>const luces = ["roja", "verde", "verde"];
 
 for (let i = 0; i + 1 &lt; luces.length; i++) {
   if (luces[i] == luces[i + 1]) {
-    console.log("Pareja en el índice", i);
+    console.log("Los elementos de los índices " + i + " y " + (i + 1) + " son iguales.");
   }
 }</code></pre>
       </section>
@@ -26,6 +26,7 @@ for (let i = 0; i + 1 &lt; luces.length; i++) {
         <h2 id="practica">Tu turno</h2>
         <p>Abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
         <p>Completa <em>hasThreeInARow</em>. Devuelve <em>true</em> si encuentras tres o más caramelos iguales consecutivos y <em>false</em> en los demás casos. Antes de programar, describe los pasos con tus palabras.</p>
+        <img width="200" class="ejemplo-caramelos" src="tablero-caramelos-tres-iguales.png" alt="Tablero de caramelos: tres caramelos rojos consecutivos están señalados con un recuadro amarillo.">
         <p>Edita el último <code>&lt;script&gt;</code>, guarda el archivo y recarga la página.</p>
       </section>
       <details>
@@ -44,12 +45,12 @@ false</pre>
       }
 
       // Ejemplo de uso:
-      console.log(hasThreeInARow(["🍬", "🍬", "🍬", "🍫", "🍭"]));
-      console.log(hasThreeInARow(["🍫", "🍬", "🍭", "🍭", "🍭"]));
-      console.log(hasThreeInARow(["🍬", "🍫", "🍭", "🍬", "🍫"]));
-      console.log(hasThreeInARow(["🍬", "🍬", "🍬", "🍬", "🍬"]));
-      console.log(hasThreeInARow(["🍫", "🍭", "🍬"]));
-      console.log(hasThreeInARow([]));
+      console.log(hasThreeInARow(["🍬", "🍬", "🍬", "🍫", "🍭"])); // true
+      console.log(hasThreeInARow(["🍫", "🍬", "🍭", "🍭", "🍭"])); // true
+      console.log(hasThreeInARow(["🍬", "🍫", "🍭", "🍬", "🍫"])); // false
+      console.log(hasThreeInARow(["🍬", "🍬", "🍬", "🍬", "🍬"])); // true
+      console.log(hasThreeInARow(["🍫", "🍭", "🍬"])); // false
+      console.log(hasThreeInARow([])); // false
     </script>
   </body>
 </html>

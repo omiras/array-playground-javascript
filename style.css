@@ -81,6 +81,14 @@ body {
   padding-left: 24px;
 }
 
+.lesson .ejemplo-caramelos {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 16px auto;
+}
+
 .lesson .idea {
   padding: 12px 16px;
   border-left: 3px solid #4266a4;
